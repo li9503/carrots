@@ -1,0 +1,44 @@
+server:
+  port: 80
+
+spring:
+    application:
+        name: service-zuul
+zuul:
+  routes:
+    a:
+      path: /a/u/**
+      serviceId: service-admin
+    b:
+      path: /b/**
+      url: http://193.112.201.68:8091/
+    c:
+      path: /media/image/**
+      url: http://193.112.201.68:9000/media/image/
+#    api-b:
+#      path: /api-b/**
+#      serviceId: service-feign
+#    cloud:
+#      bus:
+#        enabled: true
+#        trace:
+#          enabled: true
+#      config:
+#        lable: master
+#        profile: dev
+#        uri: http://193.112.201.68:8091/
+#    rabbitmq:
+#      host: 193.112.201.68
+#      port: 5672
+#      username: guest
+#      password: guest
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://193.112.201.68:8090/eureka/
+  instance:
+    hostname: localhost
+

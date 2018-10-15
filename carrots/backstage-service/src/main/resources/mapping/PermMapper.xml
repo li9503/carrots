@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jnshu.carrots.backstageservice.dao.PermMapper" >
+  <resultMap id="BaseResultMap" type="com.jnshu.carrots.backstageservice.model.Perm" >
+    <id column="perm_id" property="permId" jdbcType="BIGINT" />
+    <result column="perm_name" property="permName" jdbcType="VARCHAR" />
+    <result column="model_id" property="modelId" jdbcType="BIGINT" />
+    <result column="create_name" property="createName" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="BIGINT" />
+    <result column="update_name" property="updateName" jdbcType="VARCHAR" />
+    <result column="update_at" property="updateAt" jdbcType="BIGINT" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    perm_id, perm_name, model_id, create_name, create_time, update_name, update_at
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from perm
+    where perm_id = #{permId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from perm
+    where perm_id = #{permId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.jnshu.carrots.backstageservice.model.Perm" >
+    insert into perm (perm_id, perm_name, model_id, 
+      create_name, create_time, update_name, 
+      update_at)
+    values (#{permId,jdbcType=BIGINT}, #{permName,jdbcType=VARCHAR}, #{modelId,jdbcType=BIGINT}, 
+      #{createName,jdbcType=VARCHAR}, #{createTime,jdbcType=BIGINT}, #{updateName,jdbcType=VARCHAR}, 
+      #{updateAt,jdbcType=BIGINT})
+  </insert>
+  <insert id="insertSelective" parameterType="com.jnshu.carrots.backstageservice.model.Perm" >
+    insert into perm
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="permId != null" >
+        perm_id,
+      </if>
+      <if test="permName != null" >
+        perm_name,
+      </if>
+      <if test="modelId != null" >
+        model_id,
+      </if>
+      <if test="createName != null" >
+        create_name,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="updateName != null" >
+        update_name,
+      </if>
+      <if test="updateAt != null" >
+        update_at,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="permId != null" >
+        #{permId,jdbcType=BIGINT},
+      </if>
+      <if test="permName != null" >
+        #{permName,jdbcType=VARCHAR},
+      </if>
+      <if test="modelId != null" >
+        #{modelId,jdbcType=BIGINT},
+      </if>
+      <if test="createName != null" >
+        #{createName,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=BIGINT},
+      </if>
+      <if test="updateName != null" >
+        #{updateName,jdbcType=VARCHAR},
+      </if>
+      <if test="updateAt != null" >
+        #{updateAt,jdbcType=BIGINT},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jnshu.carrots.backstageservice.model.Perm" >
+    update perm
+    <set >
+      <if test="permName != null" >
+        perm_name = #{permName,jdbcType=VARCHAR},
+      </if>
+      <if test="modelId != null" >
+        model_id = #{modelId,jdbcType=BIGINT},
+      </if>
+      <if test="createName != null" >
+        create_name = #{createName,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=BIGINT},
+      </if>
+      <if test="updateName != null" >
+        update_name = #{updateName,jdbcType=VARCHAR},
+      </if>
+      <if test="updateAt != null" >
+        update_at = #{updateAt,jdbcType=BIGINT},
+      </if>
+    </set>
+    where perm_id = #{permId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jnshu.carrots.backstageservice.model.Perm" >
+    update perm
+    set perm_name = #{permName,jdbcType=VARCHAR},
+      model_id = #{modelId,jdbcType=BIGINT},
+      create_name = #{createName,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=BIGINT},
+      update_name = #{updateName,jdbcType=VARCHAR},
+      update_at = #{updateAt,jdbcType=BIGINT}
+    where perm_id = #{permId,jdbcType=BIGINT}
+  </update>
+</mapper>

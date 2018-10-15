@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jnshu.carrots.backstageservice.dao.JobTwoMapper" >
+  <resultMap id="BaseResultMap" type="com.jnshu.carrots.backstageservice.model.JobTwo" >
+    <id column="job_id" property="jobId" jdbcType="BIGINT" />
+    <result column="job_one_id" property="jobOneId" jdbcType="BIGINT" />
+    <result column="job_experience" property="jobExperience" jdbcType="INTEGER" />
+    <result column="job_education" property="jobEducation" jdbcType="INTEGER" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.jnshu.carrots.backstageservice.model.JobTwoWithBLOBs" extends="BaseResultMap" >
+    <result column="job_caption" property="jobCaption" jdbcType="LONGVARCHAR" />
+    <result column="job_requirement" property="jobRequirement" jdbcType="LONGVARCHAR" />
+    <result column="job_welfare" property="jobWelfare" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    job_id, job_one_id, job_experience, job_education
+  </sql>
+  <sql id="Blob_Column_List" >
+    job_caption, job_requirement, job_welfare
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from job_two
+    where job_id = #{jobId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from job_two
+    where job_id = #{jobId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.jnshu.carrots.backstageservice.model.JobTwoWithBLOBs" >
+    insert into job_two (job_id, job_one_id, job_experience, 
+      job_education, job_caption, job_requirement, 
+      job_welfare)
+    values (#{jobId,jdbcType=BIGINT}, #{jobOneId,jdbcType=BIGINT}, #{jobExperience,jdbcType=INTEGER}, 
+      #{jobEducation,jdbcType=INTEGER}, #{jobCaption,jdbcType=LONGVARCHAR}, #{jobRequirement,jdbcType=LONGVARCHAR}, 
+      #{jobWelfare,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.jnshu.carrots.backstageservice.model.JobTwoWithBLOBs" >
+    insert into job_two
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="jobId != null" >
+        job_id,
+      </if>
+      <if test="jobOneId != null" >
+        job_one_id,
+      </if>
+      <if test="jobExperience != null" >
+        job_experience,
+      </if>
+      <if test="jobEducation != null" >
+        job_education,
+      </if>
+      <if test="jobCaption != null" >
+        job_caption,
+      </if>
+      <if test="jobRequirement != null" >
+        job_requirement,
+      </if>
+      <if test="jobWelfare != null" >
+        job_welfare,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="jobId != null" >
+        #{jobId,jdbcType=BIGINT},
+      </if>
+      <if test="jobOneId != null" >
+        #{jobOneId,jdbcType=BIGINT},
+      </if>
+      <if test="jobExperience != null" >
+        #{jobExperience,jdbcType=INTEGER},
+      </if>
+      <if test="jobEducation != null" >
+        #{jobEducation,jdbcType=INTEGER},
+      </if>
+      <if test="jobCaption != null" >
+        #{jobCaption,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="jobRequirement != null" >
+        #{jobRequirement,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="jobWelfare != null" >
+        #{jobWelfare,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jnshu.carrots.backstageservice.model.JobTwoWithBLOBs" >
+    update job_two
+    <set >
+      <if test="jobOneId != null" >
+        job_one_id = #{jobOneId,jdbcType=BIGINT},
+      </if>
+      <if test="jobExperience != null" >
+        job_experience = #{jobExperience,jdbcType=INTEGER},
+      </if>
+      <if test="jobEducation != null" >
+        job_education = #{jobEducation,jdbcType=INTEGER},
+      </if>
+      <if test="jobCaption != null" >
+        job_caption = #{jobCaption,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="jobRequirement != null" >
+        job_requirement = #{jobRequirement,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="jobWelfare != null" >
+        job_welfare = #{jobWelfare,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where job_id = #{jobId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.jnshu.carrots.backstageservice.model.JobTwoWithBLOBs" >
+    update job_two
+    set job_one_id = #{jobOneId,jdbcType=BIGINT},
+      job_experience = #{jobExperience,jdbcType=INTEGER},
+      job_education = #{jobEducation,jdbcType=INTEGER},
+      job_caption = #{jobCaption,jdbcType=LONGVARCHAR},
+      job_requirement = #{jobRequirement,jdbcType=LONGVARCHAR},
+      job_welfare = #{jobWelfare,jdbcType=LONGVARCHAR}
+    where job_id = #{jobId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jnshu.carrots.backstageservice.model.JobTwo" >
+    update job_two
+    set job_one_id = #{jobOneId,jdbcType=BIGINT},
+      job_experience = #{jobExperience,jdbcType=INTEGER},
+      job_education = #{jobEducation,jdbcType=INTEGER}
+    where job_id = #{jobId,jdbcType=BIGINT}
+  </update>
+</mapper>

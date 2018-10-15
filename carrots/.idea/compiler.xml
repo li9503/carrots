@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="backstage-service" />
+        <module name="config-server" />
+        <module name="eureka-server" />
+        <module name="service-admin" />
+        <module name="backstage-service" />
+        <module name="service-hi" />
+        <module name="service-security" />
+        <module name="service-uaa" />
+        <module name="service-user" />
+        <module name="service-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="backstage-service" target="1.8" />
+      <module name="carrots" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="service-admin" target="1.8" />
+      <module name="backstage-service" target="1.8" />
+      <module name="service-hi" target="1.8" />
+      <module name="service-oauth2" target="1.8" />
+      <module name="service-security" target="1.8" />
+      <module name="service-shiro" target="1.8" />
+      <module name="service-uaa" target="1.8" />
+      <module name="service-user" target="1.8" />
+      <module name="service-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

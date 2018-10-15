@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jnshu.carrots.backstageservice.dao.JobOneMapper" >
+  <resultMap id="BaseResultMap" type="com.jnshu.carrots.backstageservice.model.JobOne" >
+    <id column="job_id" property="jobId" jdbcType="BIGINT" />
+    <result column="job_name" property="jobName" jdbcType="VARCHAR" />
+    <result column="job_company" property="jobCompany" jdbcType="VARCHAR" />
+    <result column="job_salary" property="jobSalary" jdbcType="INTEGER" />
+    <result column="job_priority" property="jobPriority" jdbcType="INTEGER" />
+    <result column="job_type" property="jobType" jdbcType="INTEGER" />
+    <result column="job_level" property="jobLevel" jdbcType="INTEGER" />
+    <result column="job_status" property="jobStatus" jdbcType="INTEGER" />
+    <result column="create_name" property="createName" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="BIGINT" />
+    <result column="update_name" property="updateName" jdbcType="VARCHAR" />
+    <result column="update_at" property="updateAt" jdbcType="BIGINT" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    job_id, job_name, job_company, job_salary, job_priority, job_type, job_level, job_status, 
+    create_name, create_time, update_name, update_at
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from job_one
+    where job_id = #{jobId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from job_one
+    where job_id = #{jobId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.jnshu.carrots.backstageservice.model.JobOne" >
+    insert into job_one (job_id, job_name, job_company, 
+      job_salary, job_priority, job_type, 
+      job_level, job_status, create_name, 
+      create_time, update_name, update_at
+      )
+    values (#{jobId,jdbcType=BIGINT}, #{jobName,jdbcType=VARCHAR}, #{jobCompany,jdbcType=VARCHAR}, 
+      #{jobSalary,jdbcType=INTEGER}, #{jobPriority,jdbcType=INTEGER}, #{jobType,jdbcType=INTEGER}, 
+      #{jobLevel,jdbcType=INTEGER}, #{jobStatus,jdbcType=INTEGER}, #{createName,jdbcType=VARCHAR}, 
+      #{createTime,jdbcType=BIGINT}, #{updateName,jdbcType=VARCHAR}, #{updateAt,jdbcType=BIGINT}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.jnshu.carrots.backstageservice.model.JobOne" >
+    insert into job_one
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="jobId != null" >
+        job_id,
+      </if>
+      <if test="jobName != null" >
+        job_name,
+      </if>
+      <if test="jobCompany != null" >
+        job_company,
+      </if>
+      <if test="jobSalary != null" >
+        job_salary,
+      </if>
+      <if test="jobPriority != null" >
+        job_priority,
+      </if>
+      <if test="jobType != null" >
+        job_type,
+      </if>
+      <if test="jobLevel != null" >
+        job_level,
+      </if>
+      <if test="jobStatus != null" >
+        job_status,
+      </if>
+      <if test="createName != null" >
+        create_name,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="updateName != null" >
+        update_name,
+      </if>
+      <if test="updateAt != null" >
+        update_at,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="jobId != null" >
+        #{jobId,jdbcType=BIGINT},
+      </if>
+      <if test="jobName != null" >
+        #{jobName,jdbcType=VARCHAR},
+      </if>
+      <if test="jobCompany != null" >
+        #{jobCompany,jdbcType=VARCHAR},
+      </if>
+      <if test="jobSalary != null" >
+        #{jobSalary,jdbcType=INTEGER},
+      </if>
+      <if test="jobPriority != null" >
+        #{jobPriority,jdbcType=INTEGER},
+      </if>
+      <if test="jobType != null" >
+        #{jobType,jdbcType=INTEGER},
+      </if>
+      <if test="jobLevel != null" >
+        #{jobLevel,jdbcType=INTEGER},
+      </if>
+      <if test="jobStatus != null" >
+        #{jobStatus,jdbcType=INTEGER},
+      </if>
+      <if test="createName != null" >
+        #{createName,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=BIGINT},
+      </if>
+      <if test="updateName != null" >
+        #{updateName,jdbcType=VARCHAR},
+      </if>
+      <if test="updateAt != null" >
+        #{updateAt,jdbcType=BIGINT},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jnshu.carrots.backstageservice.model.JobOne" >
+    update job_one
+    <set >
+      <if test="jobName != null" >
+        job_name = #{jobName,jdbcType=VARCHAR},
+      </if>
+      <if test="jobCompany != null" >
+        job_company = #{jobCompany,jdbcType=VARCHAR},
+      </if>
+      <if test="jobSalary != null" >
+        job_salary = #{jobSalary,jdbcType=INTEGER},
+      </if>
+      <if test="jobPriority != null" >
+        job_priority = #{jobPriority,jdbcType=INTEGER},
+      </if>
+      <if test="jobType != null" >
+        job_type = #{jobType,jdbcType=INTEGER},
+      </if>
+      <if test="jobLevel != null" >
+        job_level = #{jobLevel,jdbcType=INTEGER},
+      </if>
+      <if test="jobStatus != null" >
+        job_status = #{jobStatus,jdbcType=INTEGER},
+      </if>
+      <if test="createName != null" >
+        create_name = #{createName,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=BIGINT},
+      </if>
+      <if test="updateName != null" >
+        update_name = #{updateName,jdbcType=VARCHAR},
+      </if>
+      <if test="updateAt != null" >
+        update_at = #{updateAt,jdbcType=BIGINT},
+      </if>
+    </set>
+    where job_id = #{jobId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jnshu.carrots.backstageservice.model.JobOne" >
+    update job_one
+    set job_name = #{jobName,jdbcType=VARCHAR},
+      job_company = #{jobCompany,jdbcType=VARCHAR},
+      job_salary = #{jobSalary,jdbcType=INTEGER},
+      job_priority = #{jobPriority,jdbcType=INTEGER},
+      job_type = #{jobType,jdbcType=INTEGER},
+      job_level = #{jobLevel,jdbcType=INTEGER},
+      job_status = #{jobStatus,jdbcType=INTEGER},
+      create_name = #{createName,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=BIGINT},
+      update_name = #{updateName,jdbcType=VARCHAR},
+      update_at = #{updateAt,jdbcType=BIGINT}
+    where job_id = #{jobId,jdbcType=BIGINT}
+  </update>
+</mapper>

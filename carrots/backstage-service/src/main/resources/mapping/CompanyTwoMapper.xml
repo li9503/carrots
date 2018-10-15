@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jnshu.carrots.backstageservice.dao.CompanyTwoMapper" >
+  <resultMap id="BaseResultMap" type="com.jnshu.carrots.backstageservice.model.CompanyTwo" >
+    <id column="company_id" property="companyId" jdbcType="BIGINT" />
+    <result column="company_one_id" property="companyOneId" jdbcType="BIGINT" />
+    <result column="company_area" property="companyArea" jdbcType="VARCHAR" />
+    <result column="company_slogan" property="companySlogan" jdbcType="VARCHAR" />
+    <result column="company_size" property="companySize" jdbcType="INTEGER" />
+    <result column="company_product_name" property="companyProductName" jdbcType="VARCHAR" />
+    <result column="company_product_logo" property="companyProductLogo" jdbcType="VARCHAR" />
+    <result column="company_product_slogan" property="companyProductSlogan" jdbcType="VARCHAR" />
+    <result column="company_phone" property="companyPhone" jdbcType="VARCHAR" />
+    <result column="company_email" property="companyEmail" jdbcType="VARCHAR" />
+    <result column="company_addr" property="companyAddr" jdbcType="VARCHAR" />
+    <result column="company_map" property="companyMap" jdbcType="VARCHAR" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.jnshu.carrots.backstageservice.model.CompanyTwoWithBLOBs" extends="BaseResultMap" >
+    <result column="company_caption" property="companyCaption" jdbcType="LONGVARCHAR" />
+    <result column="company_product_caption" property="companyProductCaption" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    company_id, company_one_id, company_area, company_slogan, company_size, company_product_name, 
+    company_product_logo, company_product_slogan, company_phone, company_email, company_addr, 
+    company_map
+  </sql>
+  <sql id="Blob_Column_List" >
+    company_caption, company_product_caption
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from company_two
+    where company_id = #{companyId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from company_two
+    where company_id = #{companyId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.jnshu.carrots.backstageservice.model.CompanyTwoWithBLOBs" >
+    insert into company_two (company_id, company_one_id, company_area, 
+      company_slogan, company_size, company_product_name, 
+      company_product_logo, company_product_slogan, 
+      company_phone, company_email, company_addr, 
+      company_map, company_caption, company_product_caption
+      )
+    values (#{companyId,jdbcType=BIGINT}, #{companyOneId,jdbcType=BIGINT}, #{companyArea,jdbcType=VARCHAR}, 
+      #{companySlogan,jdbcType=VARCHAR}, #{companySize,jdbcType=INTEGER}, #{companyProductName,jdbcType=VARCHAR}, 
+      #{companyProductLogo,jdbcType=VARCHAR}, #{companyProductSlogan,jdbcType=VARCHAR}, 
+      #{companyPhone,jdbcType=VARCHAR}, #{companyEmail,jdbcType=VARCHAR}, #{companyAddr,jdbcType=VARCHAR}, 
+      #{companyMap,jdbcType=VARCHAR}, #{companyCaption,jdbcType=LONGVARCHAR}, #{companyProductCaption,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.jnshu.carrots.backstageservice.model.CompanyTwoWithBLOBs" >
+    insert into company_two
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="companyId != null" >
+        company_id,
+      </if>
+      <if test="companyOneId != null" >
+        company_one_id,
+      </if>
+      <if test="companyArea != null" >
+        company_area,
+      </if>
+      <if test="companySlogan != null" >
+        company_slogan,
+      </if>
+      <if test="companySize != null" >
+        company_size,
+      </if>
+      <if test="companyProductName != null" >
+        company_product_name,
+      </if>
+      <if test="companyProductLogo != null" >
+        company_product_logo,
+      </if>
+      <if test="companyProductSlogan != null" >
+        company_product_slogan,
+      </if>
+      <if test="companyPhone != null" >
+        company_phone,
+      </if>
+      <if test="companyEmail != null" >
+        company_email,
+      </if>
+      <if test="companyAddr != null" >
+        company_addr,
+      </if>
+      <if test="companyMap != null" >
+        company_map,
+      </if>
+      <if test="companyCaption != null" >
+        company_caption,
+      </if>
+      <if test="companyProductCaption != null" >
+        company_product_caption,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="companyId != null" >
+        #{companyId,jdbcType=BIGINT},
+      </if>
+      <if test="companyOneId != null" >
+        #{companyOneId,jdbcType=BIGINT},
+      </if>
+      <if test="companyArea != null" >
+        #{companyArea,jdbcType=VARCHAR},
+      </if>
+      <if test="companySlogan != null" >
+        #{companySlogan,jdbcType=VARCHAR},
+      </if>
+      <if test="companySize != null" >
+        #{companySize,jdbcType=INTEGER},
+      </if>
+      <if test="companyProductName != null" >
+        #{companyProductName,jdbcType=VARCHAR},
+      </if>
+      <if test="companyProductLogo != null" >
+        #{companyProductLogo,jdbcType=VARCHAR},
+      </if>
+      <if test="companyProductSlogan != null" >
+        #{companyProductSlogan,jdbcType=VARCHAR},
+      </if>
+      <if test="companyPhone != null" >
+        #{companyPhone,jdbcType=VARCHAR},
+      </if>
+      <if test="companyEmail != null" >
+        #{companyEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="companyAddr != null" >
+        #{companyAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="companyMap != null" >
+        #{companyMap,jdbcType=VARCHAR},
+      </if>
+      <if test="companyCaption != null" >
+        #{companyCaption,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="companyProductCaption != null" >
+        #{companyProductCaption,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jnshu.carrots.backstageservice.model.CompanyTwoWithBLOBs" >
+    update company_two
+    <set >
+      <if test="companyOneId != null" >
+        company_one_id = #{companyOneId,jdbcType=BIGINT},
+      </if>
+      <if test="companyArea != null" >
+        company_area = #{companyArea,jdbcType=VARCHAR},
+      </if>
+      <if test="companySlogan != null" >
+        company_slogan = #{companySlogan,jdbcType=VARCHAR},
+      </if>
+      <if test="companySize != null" >
+        company_size = #{companySize,jdbcType=INTEGER},
+      </if>
+      <if test="companyProductName != null" >
+        company_product_name = #{companyProductName,jdbcType=VARCHAR},
+      </if>
+      <if test="companyProductLogo != null" >
+        company_product_logo = #{companyProductLogo,jdbcType=VARCHAR},
+      </if>
+      <if test="companyProductSlogan != null" >
+        company_product_slogan = #{companyProductSlogan,jdbcType=VARCHAR},
+      </if>
+      <if test="companyPhone != null" >
+        company_phone = #{companyPhone,jdbcType=VARCHAR},
+      </if>
+      <if test="companyEmail != null" >
+        company_email = #{companyEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="companyAddr != null" >
+        company_addr = #{companyAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="companyMap != null" >
+        company_map = #{companyMap,jdbcType=VARCHAR},
+      </if>
+      <if test="companyCaption != null" >
+        company_caption = #{companyCaption,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="companyProductCaption != null" >
+        company_product_caption = #{companyProductCaption,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where company_id = #{companyId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.jnshu.carrots.backstageservice.model.CompanyTwoWithBLOBs" >
+    update company_two
+    set company_one_id = #{companyOneId,jdbcType=BIGINT},
+      company_area = #{companyArea,jdbcType=VARCHAR},
+      company_slogan = #{companySlogan,jdbcType=VARCHAR},
+      company_size = #{companySize,jdbcType=INTEGER},
+      company_product_name = #{companyProductName,jdbcType=VARCHAR},
+      company_product_logo = #{companyProductLogo,jdbcType=VARCHAR},
+      company_product_slogan = #{companyProductSlogan,jdbcType=VARCHAR},
+      company_phone = #{companyPhone,jdbcType=VARCHAR},
+      company_email = #{companyEmail,jdbcType=VARCHAR},
+      company_addr = #{companyAddr,jdbcType=VARCHAR},
+      company_map = #{companyMap,jdbcType=VARCHAR},
+      company_caption = #{companyCaption,jdbcType=LONGVARCHAR},
+      company_product_caption = #{companyProductCaption,jdbcType=LONGVARCHAR}
+    where company_id = #{companyId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jnshu.carrots.backstageservice.model.CompanyTwo" >
+    update company_two
+    set company_one_id = #{companyOneId,jdbcType=BIGINT},
+      company_area = #{companyArea,jdbcType=VARCHAR},
+      company_slogan = #{companySlogan,jdbcType=VARCHAR},
+      company_size = #{companySize,jdbcType=INTEGER},
+      company_product_name = #{companyProductName,jdbcType=VARCHAR},
+      company_product_logo = #{companyProductLogo,jdbcType=VARCHAR},
+      company_product_slogan = #{companyProductSlogan,jdbcType=VARCHAR},
+      company_phone = #{companyPhone,jdbcType=VARCHAR},
+      company_email = #{companyEmail,jdbcType=VARCHAR},
+      company_addr = #{companyAddr,jdbcType=VARCHAR},
+      company_map = #{companyMap,jdbcType=VARCHAR}
+    where company_id = #{companyId,jdbcType=BIGINT}
+  </update>
+</mapper>

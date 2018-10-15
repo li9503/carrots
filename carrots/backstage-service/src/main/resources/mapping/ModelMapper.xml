@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jnshu.carrots.backstageservice.dao.ModelMapper" >
+  <resultMap id="BaseResultMap" type="com.jnshu.carrots.backstageservice.model.Model" >
+    <id column="model_id" property="modelId" jdbcType="BIGINT" />
+    <result column="model_name" property="modelName" jdbcType="VARCHAR" />
+    <result column="model_menu_id" property="modelMenuId" jdbcType="VARCHAR" />
+    <result column="model_url" property="modelUrl" jdbcType="VARCHAR" />
+    <result column="model_parent" property="modelParent" jdbcType="INTEGER" />
+    <result column="model_type" property="modelType" jdbcType="VARCHAR" />
+    <result column="create_name" property="createName" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="BIGINT" />
+    <result column="update_name" property="updateName" jdbcType="VARCHAR" />
+    <result column="update_at" property="updateAt" jdbcType="BIGINT" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    model_id, model_name, model_menu_id, model_url, model_parent, model_type, create_name, 
+    create_time, update_name, update_at
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from model
+    where model_id = #{modelId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from model
+    where model_id = #{modelId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.jnshu.carrots.backstageservice.model.Model" >
+    insert into model (model_id, model_name, model_menu_id, 
+      model_url, model_parent, model_type, 
+      create_name, create_time, update_name, 
+      update_at)
+    values (#{modelId,jdbcType=BIGINT}, #{modelName,jdbcType=VARCHAR}, #{modelMenuId,jdbcType=VARCHAR}, 
+      #{modelUrl,jdbcType=VARCHAR}, #{modelParent,jdbcType=INTEGER}, #{modelType,jdbcType=VARCHAR}, 
+      #{createName,jdbcType=VARCHAR}, #{createTime,jdbcType=BIGINT}, #{updateName,jdbcType=VARCHAR}, 
+      #{updateAt,jdbcType=BIGINT})
+  </insert>
+  <insert id="insertSelective" parameterType="com.jnshu.carrots.backstageservice.model.Model" >
+    insert into model
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="modelId != null" >
+        model_id,
+      </if>
+      <if test="modelName != null" >
+        model_name,
+      </if>
+      <if test="modelMenuId != null" >
+        model_menu_id,
+      </if>
+      <if test="modelUrl != null" >
+        model_url,
+      </if>
+      <if test="modelParent != null" >
+        model_parent,
+      </if>
+      <if test="modelType != null" >
+        model_type,
+      </if>
+      <if test="createName != null" >
+        create_name,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="updateName != null" >
+        update_name,
+      </if>
+      <if test="updateAt != null" >
+        update_at,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="modelId != null" >
+        #{modelId,jdbcType=BIGINT},
+      </if>
+      <if test="modelName != null" >
+        #{modelName,jdbcType=VARCHAR},
+      </if>
+      <if test="modelMenuId != null" >
+        #{modelMenuId,jdbcType=VARCHAR},
+      </if>
+      <if test="modelUrl != null" >
+        #{modelUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="modelParent != null" >
+        #{modelParent,jdbcType=INTEGER},
+      </if>
+      <if test="modelType != null" >
+        #{modelType,jdbcType=VARCHAR},
+      </if>
+      <if test="createName != null" >
+        #{createName,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=BIGINT},
+      </if>
+      <if test="updateName != null" >
+        #{updateName,jdbcType=VARCHAR},
+      </if>
+      <if test="updateAt != null" >
+        #{updateAt,jdbcType=BIGINT},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jnshu.carrots.backstageservice.model.Model" >
+    update model
+    <set >
+      <if test="modelName != null" >
+        model_name = #{modelName,jdbcType=VARCHAR},
+      </if>
+      <if test="modelMenuId != null" >
+        model_menu_id = #{modelMenuId,jdbcType=VARCHAR},
+      </if>
+      <if test="modelUrl != null" >
+        model_url = #{modelUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="modelParent != null" >
+        model_parent = #{modelParent,jdbcType=INTEGER},
+      </if>
+      <if test="modelType != null" >
+        model_type = #{modelType,jdbcType=VARCHAR},
+      </if>
+      <if test="createName != null" >
+        create_name = #{createName,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=BIGINT},
+      </if>
+      <if test="updateName != null" >
+        update_name = #{updateName,jdbcType=VARCHAR},
+      </if>
+      <if test="updateAt != null" >
+        update_at = #{updateAt,jdbcType=BIGINT},
+      </if>
+    </set>
+    where model_id = #{modelId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jnshu.carrots.backstageservice.model.Model" >
+    update model
+    set model_name = #{modelName,jdbcType=VARCHAR},
+      model_menu_id = #{modelMenuId,jdbcType=VARCHAR},
+      model_url = #{modelUrl,jdbcType=VARCHAR},
+      model_parent = #{modelParent,jdbcType=INTEGER},
+      model_type = #{modelType,jdbcType=VARCHAR},
+      create_name = #{createName,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=BIGINT},
+      update_name = #{updateName,jdbcType=VARCHAR},
+      update_at = #{updateAt,jdbcType=BIGINT}
+    where model_id = #{modelId,jdbcType=BIGINT}
+  </update>
+</mapper>

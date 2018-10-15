@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jnshu.carrots.backstageservice.dao.BannerMapper">
+    <resultMap id="BaseResultMap" type="com.jnshu.carrots.backstageservice.model.Banner">
+        <id column="image_id" property="imageId" jdbcType="BIGINT"/>
+        <result column="image_name" property="imageName" jdbcType="VARCHAR"/>
+        <result column="image_url" property="imageUrl" jdbcType="VARCHAR"/>
+        <result column="image_status" property="imageStatus" jdbcType="INTEGER"/>
+        <result column="image_type" property="imageType" jdbcType="INTEGER"/>
+        <result column="image_time" property="imageTime" jdbcType="INTEGER"/>
+        <result column="image_jump_url" property="imageJumpUrl" jdbcType="VARCHAR"/>
+        <result column="image_trade" property="imageTrade" jdbcType="INTEGER"/>
+        <result column="create_name" property="createName" jdbcType="VARCHAR"/>
+        <result column="create_time" property="createTime" jdbcType="BIGINT"/>
+        <result column="update_name" property="updateName" jdbcType="VARCHAR"/>
+        <result column="update_at" property="updateAt" jdbcType="BIGINT"/>
+    </resultMap>
+    <resultMap id="ResultMapWithBLOBs" type="com.jnshu.carrots.backstageservice.model.Banner" extends="BaseResultMap">
+        <result column="image_caption" property="imageCaption" jdbcType="LONGVARCHAR"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    image_id, image_name, image_url, image_status, image_type, image_time, image_jump_url, 
+    image_trade, create_name, create_time, update_name, update_at
+  </sql>
+    <sql id="Blob_Column_List">
+    image_caption
+  </sql>
+    <sql id="list">
+    image_id, image_name, image_url, image_type, image_time, create_name, create_time, update_at
+  </sql>
+    <sql id="SelectiveKey">
+        <trim suffixOverrides=",">
+            <if test="imageId != null">
+                image_id,
+            </if>
+            <if test="imageName != null">
+                image_name,
+            </if>
+            <if test="imageUrl != null">
+                image_url,
+            </if>
+            <if test="imageStatus != null">
+                image_status,
+            </if>
+            <if test="imageType != null">
+                image_type,
+            </if>
+            <if test="imageTime != null">
+                image_time,
+            </if>
+            <if test="imageJumpUrl != null">
+                image_jump_url,
+            </if>
+            <if test="imageTrade != null">
+                image_trade,
+            </if>
+            <if test="createName != null">
+                create_name,
+            </if>
+            <if test="createTime != null">
+                create_time,
+            </if>
+            <if test="updateName != null">
+                update_name,
+            </if>
+            <if test="updateAt != null">
+                update_at,
+            </if>
+            <if test="imageCaption != null">
+                image_caption,
+            </if>
+        </trim>
+    </sql>
+    <sql id="SelectiveValue">
+        <trim suffixOverrides=",">
+            <if test="imageId != null">
+                #{imageId,jdbcType=BIGINT},
+            </if>
+            <if test="imageName != null">
+                #{imageName,jdbcType=VARCHAR},
+            </if>
+            <if test="imageUrl != null">
+                #{imageUrl,jdbcType=VARCHAR},
+            </if>
+            <if test="imageStatus != null">
+                #{imageStatus,jdbcType=INTEGER},
+            </if>
+            <if test="imageType != null">
+                #{imageType,jdbcType=INTEGER},
+            </if>
+            <if test="imageTime != null">
+                #{imageTime,jdbcType=INTEGER},
+            </if>
+            <if test="imageJumpUrl != null">
+                #{imageJumpUrl,jdbcType=VARCHAR},
+            </if>
+            <if test="imageTrade != null">
+                #{imageTrade,jdbcType=INTEGER},
+            </if>
+            <if test="createName != null">
+                #{createName,jdbcType=VARCHAR},
+            </if>
+            <if test="createTime != null">
+                #{createTime,jdbcType=BIGINT},
+            </if>
+            <if test="updateName != null">
+                #{updateName,jdbcType=VARCHAR},
+            </if>
+            <if test="updateAt != null">
+                #{updateAt,jdbcType=BIGINT},
+            </if>
+            <if test="imageCaption != null">
+                #{imageCaption,jdbcType=LONGVARCHAR},
+            </if>
+        </trim>
+    </sql>
+    <select id="selectForPage" resultMap="BaseResultMap">
+        SELECT
+        <include refid="list"/>
+        FROM banner
+        <where>
+            <if test="imageName != null">
+                image_name like CONCAT('%',#{imageName,jdbcType=VARCHAR},'%')
+            </if>
+            <if test="createName != null">
+                and create_name like CONCAT('%',#{createName,jdbcType=VARCHAR},'%')
+            </if>
+            <if test="imageStatus != null">
+                and image_status= #{imageStatus,jdbcType=INTEGER}
+            </if>
+            <if test="imageType != null">
+                and image_type= #{imageType,jdbcType=INTEGER}
+            </if>
+            <if test="timeFirst != null">
+                and update_at &gt;= #{timeFirst,jdbcType=BIGINT}
+            </if>
+            <if test="timeLast != null">
+                and update_at &lt;= #{timeLast,jdbcType=BIGINT}
+            </if>
+        </where>
+    </select>
+
+
+    <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Long">
+        select
+        <include refid="Base_Column_List"/>
+        ,
+        <include refid="Blob_Column_List"/>
+        from banner
+        where image_id = #{imageId,jdbcType=BIGINT}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from banner
+    where image_id = #{imageId,jdbcType=BIGINT}
+  </delete>
+    <insert id="insert" parameterType="com.jnshu.carrots.backstageservice.model.Banner">
+    insert into banner (image_id, image_name, image_url, 
+      image_status, image_type, image_time, 
+      image_jump_url, image_trade, create_name, 
+      create_time, update_name, update_at, 
+      image_caption)
+    values (#{imageId,jdbcType=BIGINT}, #{imageName,jdbcType=VARCHAR}, #{imageUrl,jdbcType=VARCHAR}, 
+      #{imageStatus,jdbcType=INTEGER}, #{imageType,jdbcType=INTEGER}, #{imageTime,jdbcType=INTEGER}, 
+      #{imageJumpUrl,jdbcType=VARCHAR}, #{imageTrade,jdbcType=INTEGER}, #{createName,jdbcType=VARCHAR}, 
+      #{createTime,jdbcType=BIGINT}, #{updateName,jdbcType=VARCHAR}, #{updateAt,jdbcType=BIGINT}, 
+      #{imageCaption,jdbcType=LONGVARCHAR})
+  </insert>
+    <insert id="insertSelective" parameterType="com.jnshu.carrots.backstageservice.model.Banner">
+        insert into banner
+        (<include refid="SelectiveKey"/>)
+        VALUES
+        (<include refid="SelectiveValue"/>)
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.jnshu.carrots.backstageservice.model.Banner">
+        update banner
+        <set>
+            <if test="imageName != null">
+                image_name = #{imageName,jdbcType=VARCHAR},
+            </if>
+            <if test="imageUrl != null">
+                image_url = #{imageUrl,jdbcType=VARCHAR},
+            </if>
+            <if test="imageStatus != null">
+                image_status = #{imageStatus,jdbcType=INTEGER},
+            </if>
+            <if test="imageType != null">
+                image_type = #{imageType,jdbcType=INTEGER},
+            </if>
+            <if test="imageTime != null">
+                image_time = #{imageTime,jdbcType=INTEGER},
+            </if>
+            <if test="imageJumpUrl != null">
+                image_jump_url = #{imageJumpUrl,jdbcType=VARCHAR},
+            </if>
+            <if test="imageTrade != null">
+                image_trade = #{imageTrade,jdbcType=INTEGER},
+            </if>
+            <if test="createName != null">
+                create_name = #{createName,jdbcType=VARCHAR},
+            </if>
+            <if test="createTime != null">
+                create_time = #{createTime,jdbcType=BIGINT},
+            </if>
+            <if test="updateName != null">
+                update_name = #{updateName,jdbcType=VARCHAR},
+            </if>
+            <if test="updateAt != null">
+                update_at = #{updateAt,jdbcType=BIGINT},
+            </if>
+            <if test="imageCaption != null">
+                image_caption = #{imageCaption,jdbcType=LONGVARCHAR},
+            </if>
+        </set>
+        where image_id = #{imageId,jdbcType=BIGINT}
+    </update>
+    <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.jnshu.carrots.backstageservice.model.Banner">
+    update banner
+    set image_name = #{imageName,jdbcType=VARCHAR},
+      image_url = #{imageUrl,jdbcType=VARCHAR},
+      image_status = #{imageStatus,jdbcType=INTEGER},
+      image_type = #{imageType,jdbcType=INTEGER},
+      image_time = #{imageTime,jdbcType=INTEGER},
+      image_jump_url = #{imageJumpUrl,jdbcType=VARCHAR},
+      image_trade = #{imageTrade,jdbcType=INTEGER},
+      create_name = #{createName,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=BIGINT},
+      update_name = #{updateName,jdbcType=VARCHAR},
+      update_at = #{updateAt,jdbcType=BIGINT},
+      image_caption = #{imageCaption,jdbcType=LONGVARCHAR}
+    where image_id = #{imageId,jdbcType=BIGINT}
+  </update>
+</mapper>

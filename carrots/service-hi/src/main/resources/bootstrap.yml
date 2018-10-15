@@ -1,0 +1,49 @@
+ server:
+  port: 8081
+
+spring:
+    application:
+        name: service-hi
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://192.168.2.153:3306/spring-cloud-auth?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+        username: root
+        password: 123456
+    jpa:
+        hibernate:
+          ddl-auto: update
+        show-sql: true
+#    cloud:
+#      bus:
+#        enabled: true
+#        trace:
+#          enabled: true
+#      config:
+#        lable: master
+#        profile: dev
+#        uri: http://193.112.201.68:8091/
+#    rabbitmq:
+#      host: 193.112.201.68
+#      port: 5672
+#      username: guest
+#      password: guest
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://193.112.201.68:8090/eureka/
+  instance:
+    hostname: localhost
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:5000/uaa/users/current
+
+    client:
+      clientId: service-hi
+      clientSecret: 123456
+      accessTokenUri: http://localhost:5000/uaa/oauth/token
+      grant-type: client_credentials,password
+      scope: server

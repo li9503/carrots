@@ -1,0 +1,1576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/service-admin/src/main/java/com/jnshu/carrots/serviceadmin/controller/ArticleController.java" line="97" />
+    <bookmark url="file://$PROJECT_DIR$/service-security/src/main/java/com/jnshu/carrots/servicesecurity/web/UserController.java" line="34" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="323decdc-f1cb-4c09-8264-370f171f2404" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/demo/target/" />
+    <ignored path="$PROJECT_DIR$/service-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/service-admin/target/" />
+    <ignored path="$PROJECT_DIR$/service-shiro/target/" />
+    <ignored path="$PROJECT_DIR$/service-security/target/" />
+    <ignored path="$PROJECT_DIR$/service-oauth2/target/" />
+    <ignored path="$PROJECT_DIR$/service-uaa/target/" />
+    <ignored path="$PROJECT_DIR$/service-user/target/" />
+    <ignored path="$PROJECT_DIR$/backstage-service/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="carrots" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.42783505">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="CompanyTwoMapper.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapping/CompanyTwoMapper.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1224">
+                  <caret line="46" column="59" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="46" selection-end-column="59" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="JobOneMapper.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapping/JobOneMapper.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3247">
+                  <caret line="165" column="17" lean-forward="false" selection-start-line="165" selection-start-column="17" selection-end-line="165" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="JobTwoMapper.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapping/JobTwoMapper.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="867">
+                  <caret line="36" column="11" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="36" selection-end-column="11" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ModelMapper.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapping/ModelMapper.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2754">
+                  <caret line="139" column="47" lean-forward="false" selection-start-line="130" selection-start-column="4" selection-end-line="139" selection-end-column="47" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PermMapper.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapping/PermMapper.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RoleMapper.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapping/RoleMapper.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RolePermMapper.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapping/RolePermMapper.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapping/UserMapper.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="17" column="8" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="17" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserRoleMapper.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapping/UserRoleMapper.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <marker date="1539585521919" expanded="true" signature="1044:1153" ph="select from user_role" />
+                    <marker date="1539585521919" expanded="true" signature="1237:1300" ph="delete from user_role... " />
+                    <marker date="1539585521919" expanded="true" signature="1407:1747" ph="insert into user_role... " />
+                    <marker date="1539585521919" expanded="true" signature="3209:3879" ph="update user_role... " />
+                    <marker date="1539585521919" expanded="true" signature="3998:4345" ph="update user_role... " />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PermMapper.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/dao/PermMapper.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="DescribeException.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/exception/DescribeException.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#666#667#0" expanded="true" />
+                    <element signature="e#693#694#0" expanded="true" />
+                    <element signature="e#734#735#0" expanded="true" />
+                    <element signature="e#766#767#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ExceptionEnum.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/exception/ExceptionEnum.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Job</find>
+      <find>job</find>
+      <find>公司</find>
+      <find>company</find>
+      <find>Company</find>
+      <find>Model</find>
+      <find>model</find>
+      <find>user</find>
+      <find>User</find>
+      <find>模块</find>
+      <find>图片</find>
+      <find>image</find>
+      <find>Article</find>
+      <find>springboot.chapter12</find>
+      <find>&quot;1537367472203&quot;</find>
+      <find>&quot;153</find>
+      <find>203&quot;</find>
+      <find>forezp</find>
+      <find>fzp-jwt</find>
+      <find>loadUserByUsername</find>
+      <find>findBy</find>
+      <find>FKa68196081fvovjhkek5m97n3y</find>
+      <find>lcw</find>
+      <find>fistTime</find>
+      <find>currentPage</find>
+      <find>　　</find>
+      <find>ServiceBackstageApplication</find>
+      <find>msg</find>
+      <find>Msg</find>
+      <find>backstage-service</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/servicebackstage/model/Banner.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/servicebackstage/model/Te.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/test/java/com/jnshu/carrots/servicebackstage/ServiceBackstageApplicationTests.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/servicebackstage/PageHelperConfiguration.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/servicebackstage/controller/ArticleController.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/servicebackstage/DruidConfig.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/servicebackstage/dao/BannerMapper.java" />
+        <option value="$PROJECT_DIR$/service-admin/src/main/java/com/jnshu/carrots/serviceadmin/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/servicebackstage/DruidConfiguration.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/servicebackstage/MybatisConfig.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/ServiceBackstageApplication.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/DruidConfiguration.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/exception/e.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/exception/R.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/exception/a.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/model/Banner.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/resources/mapping/BannerMapper.xml" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/service/BannerService.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/dao/BannerMapper.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/exception/ResultUtil.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/exception/DescribeException.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/controller/ArticleController.java" />
+        <option value="$PROJECT_DIR$/backstage-service/backstage-service.iml" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/BackstageServiceApplication.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/config/a.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/config/Swagger2.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/exception/HttpAspect.java" />
+        <option value="$PROJECT_DIR$/service-user/src/main/java/com/jnshu/carrots/serviceuser/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/service-user/src/main/java/com/jnshu/carrots/serviceuser/config/ResourceServerConfig.java" />
+        <option value="$PROJECT_DIR$/service-user/src/main/java/com/jnshu/carrots/serviceuser/web/UserController.java" />
+        <option value="$PROJECT_DIR$/service-user/src/main/java/com/jnshu/carrots/serviceuser/exception/AuthExceptionEntryPoint.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/util/ResultUtil.java" />
+        <option value="$PROJECT_DIR$/backstage-service/pom.xml" />
+        <option value="$PROJECT_DIR$/backstage-service/pom.xml" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/util/MD5Util.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/service/UserService.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/model/User.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/resources/mapping/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/config/DruidConfiguration.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/exception/ExceptionEnum.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/service/impl/BannerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/exception/Result.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/config/MybatisConfig.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/resources/a.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/Java/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\Maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="backstage-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="backstage-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="backstage-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-7" />
+    <option name="width" value="1380" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring BootSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringBootApplicationYaml</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jnshu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jnshu" type="462c0819:PsiDirectoryNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jnshu" type="462c0819:PsiDirectoryNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="backstageservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backstageservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backstageservice" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backstageservice" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backstageservice" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backstageservice" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backstageservice" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backstageservice" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="service-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceuser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceuser" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceuser" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceuser" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceuser" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrots" type="462c0819:PsiDirectoryNode" />
+              <item name="service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceuser" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.5678161" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-admin" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\li438\IdeaProjects\carrots\backstage-service\src\main\resources\mapping" />
+      <recent name="C:\Users\li438\IdeaProjects\carrots\backstage-service\src\main\java\com\jnshu\carrots\backstageservice\dao" />
+      <recent name="C:\Users\li438\IdeaProjects\carrots\backstage-service\src\main\java\com\jnshu\carrots\backstageservice\config" />
+      <recent name="C:\Users\li438\IdeaProjects\carrots\backstage-service\src\main\java\com\jnshu\carrots\servicebackstage" />
+      <recent name="C:\Users\li438\IdeaProjects\carrots\service-security\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jnshu.carrots.backstageservice.service" />
+      <recent name="com.jnshu.carrots.serviceuser.dao" />
+      <recent name="com.jnshu.carrots.servicesecurity.dao" />
+      <recent name="com.jnshu.carrots.servicesecurity.web" />
+      <recent name="com.jnshu.carrots.servicesecurity.dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\li438\IdeaProjects\carrots\backstage-service\src\main\java\com\jnshu\carrots\backstageservice" />
+      <recent name="C:\Users\li438\IdeaProjects\carrots\backstage-service\src\main\java\com\jnshu\carrots\backstageservice\model" />
+      <recent name="C:\Users\li438\IdeaProjects\carrots\backstage-service\src\main\java\com\jnshu\carrots\backstageservice\dao" />
+      <recent name="C:\Users\li438\IdeaProjects\carrots\backstage-service\src\main\java\com\jnshu\carrots\servicebackstage\model" />
+      <recent name="C:\Users\li438\IdeaProjects\carrots\backstage-service\src\main\java\com\jnshu\carrots\servicebackstage" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BackstageServiceApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="BackstageServiceApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jnshu.carrots.backstageservice.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="backstage-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jnshu.carrots.backstageservice" />
+      <option name="MAIN_CLASS_NAME" value="com.jnshu.carrots.backstageservice.BackstageServiceApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="BannerService.te" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jnshu.carrots.backstageservice.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="backstage-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jnshu.carrots.backstageservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.jnshu.carrots.backstageservice.service.BannerService" />
+      <option name="METHOD_NAME" value="te" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="BackstageServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jnshu.carrots.backstageservice.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jnshu.carrots.backstageservice.BackstageServiceApplication" />
+      <module name="backstage-service" />
+      <envs />
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jnshu.carrots.configserver.ConfigServerApplication" />
+      <module name="config-server" />
+      <envs />
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.exam.demo.DemoApplication" />
+      <module name="demo" />
+      <envs />
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jnshu.carrots.eurekaserver.EurekaServerApplication" />
+      <module name="eureka-server" />
+      <envs />
+    </configuration>
+    <configuration name="ServiceAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jnshu.carrots.serviceadmin.ServiceAdminApplication" />
+      <module name="service-admin" />
+      <envs />
+    </configuration>
+    <configuration name="ServiceBackstageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jnshu.carrots.backstageservice.ServiceBackstageApplication" />
+      <module name="backstage-service" />
+      <envs />
+    </configuration>
+    <configuration name="ServiceHiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jnshu.carrots.servicehi.ServiceHiApplication" />
+      <module name="service-hi" />
+      <envs />
+    </configuration>
+    <configuration name="ServiceShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.serviceshiro.ServiceShiroApplication" />
+      <module name="service-shiro" />
+      <envs />
+    </configuration>
+    <configuration name="ServiceUaaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jnshu.carrots.serviceuaa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jnshu.carrots.serviceuaa.ServiceUaaApplication" />
+      <module name="service-uaa" />
+      <envs />
+    </configuration>
+    <configuration name="ServiceUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jnshu.carrots.serviceuser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jnshu.carrots.serviceuser.ServiceUserApplication" />
+      <module name="service-user" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="12">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.ServiceHiApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.ConfigServerApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.DemoApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.ServiceShiroApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.ServiceBackstageApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.ServiceAdminApplication" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.ServiceUserApplication" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.ServiceUaaApplication" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.BannerService.te" />
+      <item index="10" class="java.lang.String" itemvalue="JUnit.BackstageServiceApplicationTests.contextLoads" />
+      <item index="11" class="java.lang.String" itemvalue="Spring Boot.BackstageServiceApplication" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.BackstageServiceApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.ServiceUserApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.ServiceUaaApplication" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BackstageServiceApplicationTests.contextLoads" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BannerService.te" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="323decdc-f1cb-4c09-8264-370f171f2404" name="Default" comment="" />
+      <created>1536589219117</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536589219117</updated>
+      <workItem from="1536589227710" duration="386000" />
+      <workItem from="1536589619936" duration="46711000" />
+      <workItem from="1536889464034" duration="13954000" />
+      <workItem from="1537175553722" duration="1976000" />
+      <workItem from="1537249588635" duration="53733000" />
+      <workItem from="1537518404199" duration="58595000" />
+      <workItem from="1537971877557" duration="16043000" />
+      <workItem from="1538058740025" duration="136000" />
+      <workItem from="1538059933015" duration="48282000" />
+      <workItem from="1538308048219" duration="4713000" />
+      <workItem from="1538318859291" duration="15303000" />
+      <workItem from="1538412857542" duration="134885000" />
+      <workItem from="1539004996945" duration="51103000" />
+      <workItem from="1539182359850" duration="24289000" />
+      <workItem from="1539274082626" duration="53105000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ServiceBackstageApplicationTests_contextLoads - 2018.10.10 at 09h 29m 05s.xml">
+      <configuration name="ServiceBackstageApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServiceBackstageApplicationTests_contextLoads - 2018.10.10 at 09h 31m 38s.xml">
+      <configuration name="ServiceBackstageApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServiceBackstageApplicationTests_contextLoads - 2018.10.10 at 09h 36m 03s.xml">
+      <configuration name="ServiceBackstageApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServiceBackstageApplicationTests_contextLoads - 2018.10.10 at 09h 38m 41s.xml">
+      <configuration name="ServiceBackstageApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServiceBackstageApplicationTests_contextLoads - 2018.10.10 at 10h 00m 34s.xml">
+      <configuration name="ServiceBackstageApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServiceBackstageApplicationTests_contextLoads - 2018.10.10 at 10h 04m 36s.xml">
+      <configuration name="ServiceBackstageApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServiceBackstageApplicationTests_contextLoads - 2018.10.10 at 10h 05m 37s.xml">
+      <configuration name="ServiceBackstageApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServiceBackstageApplicationTests_contextLoads - 2018.10.10 at 10h 06m 20s.xml">
+      <configuration name="ServiceBackstageApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServiceBackstageApplicationTests_contextLoads - 2018.10.10 at 21h 19m 34s.xml">
+      <configuration name="ServiceBackstageApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServiceBackstageApplicationTests_contextLoads - 2018.10.10 at 21h 24m 26s.xml">
+      <configuration name="ServiceBackstageApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="523214000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11727079" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2652174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18763326" sideWeight="0.4888889" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2489339" sideWeight="0.51111114" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="1330" y="470" width="512" height="322" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/service-admin/src/main/java/com/jnshu/carrots/serviceadmin/dao/Job.java</url>
+          <line>60</line>
+          <properties class="com.jnshu.carrots.serviceadmin.dao.Job" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="75" column="28" lean-forward="true" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.0.8.RELEASE/spring-jdbc-5.0.8.RELEASE.jar!/org/springframework/jdbc/support/SQLErrorCodeSQLExceptionTranslator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapping/BannerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="229" column="47" lean-forward="false" selection-start-line="216" selection-start-column="4" selection-end-line="229" selection-end-column="47" />
+          <folding>
+            <marker date="1539269456451" expanded="true" signature="4694:4759" ph="SELECT FROM banner" />
+            <marker date="1539269456451" expanded="true" signature="4694:5566" ph="SELECT FROM banner" />
+            <marker date="1539269456451" expanded="true" signature="5690:5866" ph="select , fro... " />
+            <marker date="1539269456451" expanded="true" signature="5953:6019" ph="delete from banner... " />
+            <marker date="1539269456451" expanded="true" signature="6125:6789" ph="insert into banner... " />
+            <marker date="1539269456451" expanded="true" signature="6908:6926" ph="insert into banner... " />
+            <marker date="1539269456451" expanded="true" signature="6908:7027" ph="insert into banner... " />
+            <marker date="1539269456451" expanded="true" signature="7160:8727" ph="update banner... " />
+            <marker date="1539269456451" expanded="true" signature="8856:9541" ph="update banner... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-user/src/main/java/com/jnshu/carrots/serviceuser/config/ResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="37" column="31" lean-forward="false" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-user/src/main/java/com/jnshu/carrots/serviceuser/config/JwtConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-user/src/main/java/com/jnshu/carrots/serviceuser/config/GlobalMethodSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-user/src/main/java/com/jnshu/carrots/serviceuser/web/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="38" column="5" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="38" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-user/src/main/java/com/jnshu/carrots/serviceuser/service/UserServiceDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="53" column="79" lean-forward="false" selection-start-line="53" selection-start-column="79" selection-end-line="53" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/exception/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <element signature="e#396#397#0" expanded="false" />
+            <element signature="e#423#424#0" expanded="false" />
+            <element signature="e#466#467#0" expanded="false" />
+            <element signature="e#498#499#0" expanded="false" />
+            <element signature="e#532#533#0" expanded="false" />
+            <element signature="e#562#563#0" expanded="false" />
+            <element signature="e#608#609#0" expanded="false" />
+            <element signature="e#646#647#0" expanded="false" />
+            <element signature="e#712#713#0" expanded="false" />
+            <element signature="e#747#748#0" expanded="false" />
+            <element signature="e#779#780#0" expanded="false" />
+            <element signature="e#805#806#0" expanded="false" />
+            <element signature="e#832#833#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/service/impl/BannerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/exception/HttpAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="60" column="35" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/util/ResultUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="41" column="46" lean-forward="false" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/exception/ExceptionHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="43" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-user/src/main/java/com/jnshu/carrots/serviceuser/web/WebController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/config/MybatisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/config/DruidConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="109" column="5" lean-forward="false" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/BackstageServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/com/jnshu/carrots/backstageservice/dao/CompanyOneMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/com/jnshu/carrots/backstageservice/dao/CompanyTwoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/com/jnshu/carrots/backstageservice/dao/JobOneMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/com/jnshu/carrots/backstageservice/dao/JobTwoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/com/jnshu/carrots/backstageservice/dao/ModelMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/com/jnshu/carrots/backstageservice/dao/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/com/jnshu/carrots/backstageservice/dao/RolePermMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/com/jnshu/carrots/backstageservice/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/com/jnshu/carrots/backstageservice/dao/UserRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/com/jnshu/carrots/backstageservice/dao/BannerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/dao/CompanyTwoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/dao/BannerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/model/Banner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/model/Perm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/dao/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/a.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="39" column="157" lean-forward="false" selection-start-line="39" selection-start-column="157" selection-end-line="39" selection-end-column="157" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapping/CompanyOneMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="19" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapping/CompanyTwoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="46" column="59" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="46" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapping/JobOneMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3247">
+          <caret line="165" column="17" lean-forward="false" selection-start-line="165" selection-start-column="17" selection-end-line="165" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapping/JobTwoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="36" column="11" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="36" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapping/ModelMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2754">
+          <caret line="139" column="47" lean-forward="false" selection-start-line="130" selection-start-column="4" selection-end-line="139" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapping/PermMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapping/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapping/RolePermMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapping/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="17" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapping/UserRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1539585521919" expanded="true" signature="1044:1153" ph="select from user_role" />
+            <marker date="1539585521919" expanded="true" signature="1237:1300" ph="delete from user_role... " />
+            <marker date="1539585521919" expanded="true" signature="1407:1747" ph="insert into user_role... " />
+            <marker date="1539585521919" expanded="true" signature="3209:3879" ph="update user_role... " />
+            <marker date="1539585521919" expanded="true" signature="3998:4345" ph="update user_role... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/exception/DescribeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/exception/ExceptionEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/jnshu/carrots/backstageservice/dao/PermMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>service-security:Web exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5678161" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|service-security</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5678161" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

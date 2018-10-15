@@ -1,0 +1,30 @@
+server:
+  port: 9000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://193.112.201.68:8090/eureka/
+spring:
+  application:
+    name: backstage-service
+  jackson:
+    default-property-inclusion: non_null
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://193.112.201.68:3306/carrots?useUnicode=true&characterEncoding=utf-8&useSSL=false
+#    username: root
+#    password: 123456
+
+
+#mapper:
+#    mappers:
+#        - tk.mybatis.springboot.util.MyMapper
+#    not-empty: false
+#    identity: MYSQL
+
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
