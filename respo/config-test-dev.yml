@@ -1,22 +1,4 @@
-server:
-  port: 8081
-# server.port=8081
-spring:
-    cloud:
-      bus:
-        enabled: true
-        trace:
-          enabled: true
-      rabbitmq:
-        host: 193.112.201.68
-        port: 5672
-        username: guest
-        password: guest
-eureka:
-  client:
-    registerWithEureka: true
-    fetchRegistry: true
-    serviceUrl:
-      defaultZone: http://193.112.201.68:8090/eureka/
-  instance:
-    hostname: localhost
+# server:
+#   port: 8081
+server.port=8081
+
