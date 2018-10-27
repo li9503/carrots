@@ -1,0 +1,66 @@
+server:
+  port: 9001
+eureka:
+  client:
+    serviceUrl:
+#       defaultZone: http://localhost:8090/eureka/
+      defaultZone: http://193.112.201.68:8090/eureka/
+#      defaultZone: http://47.106.195.168:8761/eureka/
+  instance:
+    hostname: localhost
+#      prefer-ip-address: true
+#      ip-address: 193.112.201.68
+spring:
+  application:
+    name: admin-service
+  jackson:
+    default-property-inclusion: non_null
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://193.112.201.68:3306/carrots?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowMultiQueries=true
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    # 下面为连接池的补充设置，应用到上面所有数据源中
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    # 配置获取连接等待超时的时间
+    maxWait: 60000
+    # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+    timeBetweenEvictionRunsMillis: 60000
+    # 配置一个连接在池中最小生存的时间，单位是毫秒
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+# 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙,防止sql注入
+    filters: stat,wall,log4j
+    logSlowSql: true
+    #redis配置
+  redis:
+    host: localhost
+    database: 0
+    port: 6379
+    jedis:
+      pool:
+        max-active: 50
+        max-idle: 50
+        min-idle: 5
+        max-wait: -1ms
+mybatis:
+  type-aliases-package: com.jnshu.carrots.adminservice.model
+  mapper-locations: classpath:mapping/*.xml
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+#请求处理的超时时间
+ribbon:
+  ReadTimeout: 120000
+#请求连接的超时时间
+  ConnectTimeout: 30000
