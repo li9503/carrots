@@ -11,6 +11,11 @@ eureka:
 #      prefer-ip-address: true
 #      ip-address: 193.112.201.68
 spring:
+  rabbitmq:
+      host: 193.112.201.68
+      port: 5672
+      username: guest
+      password: guest
   application:
     name: admin-service
   jackson:
